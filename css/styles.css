@@ -294,12 +294,9 @@ ul {
 
 .footer {
   background-color: var(--brand-background-color-gray);
-}
-
-.footer-info-wrapper {
   padding-top: 60px;
-  padding-bottom: 60px;
-}
+    padding-bottom: 60px;
+  }
 
 .footer-logo1 {
   font-family: 'Raleway';
@@ -356,6 +353,7 @@ color: var(--brand-color-gray);
 /* Portoflio */
 
 .portfolio-btn {
+  font-family: 'Roboto', sans-serif;
   width: 121px;
   height: 38px;
   color: var(--brand-color-black);
@@ -415,4 +413,3 @@ figcaption {
   flex-wrap: wrap;
   gap: 30px;
 }
-
