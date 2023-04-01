@@ -1,12 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--brand-color-light-black);
-  background: var(--brand-color-white);
-  font-weight: 700;
-  font-size: 1.125rem;
-  margin: auto;
-  width: 1600;
-  font-weight: normal;
 }
 
 ul {
@@ -22,6 +16,7 @@ ul {
   --brand-color-blue: #2196f3;
   --brand-background-color-gray: #2f303a;
   --body-background-color-dirty-white: #e5e5e5;
+  
 }
 
 h1,
@@ -193,6 +188,10 @@ ul {
   padding: 94px 0px;
 }
 
+.job-section {
+  margin-top: -94px;
+}
+
 .articles h3 {
   text-decoration: none;
   color: var(--brand-color-light-black);
@@ -215,7 +214,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color-light-black);
-  text-align: center;
 }
 
 .job {
@@ -339,6 +337,11 @@ ul {
   text-decoration: none;
 }
 
+.footer-contact {
+  font-size: 14px;
+color: var(--brand-color-gray);
+}
+
 .footer-contact:hover,
 .footer-contact:focus,
 .no-underline:hover,
@@ -348,7 +351,6 @@ ul {
 
 .no-underline {
   text-decoration: none;
-  color: var(--brand-color-gray);
 }
 
 /* Portoflio */
@@ -413,3 +415,4 @@ figcaption {
   flex-wrap: wrap;
   gap: 30px;
 }
+
